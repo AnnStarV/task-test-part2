@@ -37,7 +37,7 @@ let calculate = () => {
         rest = quantity - eight*8;
 
     }
-    answer.innerHTML +="You will need " + eight +" packs of 8pcs, "+six+" packs of 6pcs";
+    answer.innerHTML ="You will need " + eight +" packs of 8pcs, "+six+" packs of 6pcs";
     console.log("eight: " + eight + ", six: "+six);
 
 }
